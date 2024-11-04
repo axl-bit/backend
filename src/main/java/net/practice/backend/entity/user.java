@@ -29,8 +29,7 @@ public class user {
     @Column(name="apellidos")
     private String Apellidos;
 
-    @Column(name="email")
+    @Column(name="email", nullable = false, unique = true)
     private String email;
-
 
 }
