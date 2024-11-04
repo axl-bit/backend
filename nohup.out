@@ -1,0 +1,52 @@
+The disableGPU setting is set to undefined
+Not disabling GPU
+Main: Starting cleanup of stale files
+Main: Cleanup of stale files completed
+Main~createDefaultWorkingDir - Default working dir creation already attempted
+1730751875175 main info "Booting Postman 11.18.0, linux-6.8.0-48-generic on x64"
+1730751875188 main info "EventBus~initialize - Success"
+1730751875276 main info "Proxy configuration has not been setup"
+1730751875321 main info "CloudProxyManager~init - Success"
+1730751875765 main info "performShellDataMigration: Migration has already been done. Bailing out"
+1730751875792 main info "UpdateHandler~init - Success"
+1730751875795 main info "LeaderSelection: Initialized successfully"
+1730751875797 main info "VersionDependencyService: Initialized successfully"
+1730751875804 main info "LinuxAutoUpdater~Cleanup - Initial cleanup successful"
+1730751927663 main error "main~makeSingleInstance: undefined"
+1730751927665 main info "userPartitionService: State of v8 partition system:"
+1730751927666 main info "shell~init~getPartitionToLoad: loading scratchpad partition"
+1730751927666 main info "userPartitionService: List of partitions:",[{"partitionId":"b85d3075-b993-4324-8d73-757c3f334f58","namespace":"scratchPad","userId":0,"teamId":0,"isDirty":false}]
+1730751927667 main info "userPartitionService: users global meta:",{}
+1730751927667 main info "Main:windowManager~newRequesterWindow: Fetch and update runtime config: undefined"
+1730751927669 main warn "WindowManager~newRequesterWindow - Bailing requester window creation as first requester is not booted."
+1730751927670 main error "main~makeSingleInstance: New Requester window instance not found"
+Could not get the lock, quitting
+The disableGPU setting is set to undefined
+Not disabling GPU
+1730751927782 main info "shellController~init: Success"
+1730751927782 main info "shellMeta~init: Success"
+1730751927783 main info "partitionMigrationService: State of V7 partition:"
+1730751927783 main info "partitionMigrationService: V7 partitions",[]
+1730751927783 main info "partitionMigrationService~rectifyNamespaceOfScratchPadPartition: There is no partition with scratchpad namespace"
+1730751927783 main info "partitionMigrationService~rectifyNamespaceOfScratchPadPartition: There is no transit partition which could have been used for scratchpad"
+1730751927784 main info "partitionMigrationService~init: Success"
+1730751927784 main info "partitionMigrationService~runV8PartitionsIntegrity: Two way migration~ removing the following partitions from v8",[]
+1730751927788 main info "userPartitionService~_rectifyTheActivePartitionOfApplication: Setting the active partition to ",null
+1730751927841 main info "GPU detected VID 5549 DID 1029 ACTIVE true"
+Main: Starting cleanup of stale files
+1730751927899 main info "newAccountRegionPreferenceService~getPreferenceWithFallback - Preference not found in storage."
+1730751927901 main info "newAccountRegionPreferenceService~getToggleMenuTemplate - Using preference:","useUSRegion"
+1730751928001 main info "userPartitionService~init: Success"
+Main: Cleanup of stale files completed
+1730751928154 main info "userPartitionService: State of v8 partition system:"
+1730751928154 main info "shell~init~getPartitionToLoad: loading scratchpad partition"
+1730751928155 main info "userPartitionService: List of partitions:",[{"partitionId":"b85d3075-b993-4324-8d73-757c3f334f58","namespace":"scratchPad","userId":0,"teamId":0,"isDirty":false}]
+1730751928155 main info "userPartitionService: users global meta:",{}
+1730751928155 main info "Main:windowManager~newRequesterWindow: Fetch and update runtime config: undefined"
+1730751946768 main info "RuntimeIPCAgent~started: Success"
+1730751946869 main info "Main~scratchpadThemeAction:: action: set, value: dark"
+1730751947017 main info "UpdateHandler~app-update-events - Received event",{"name":"checkForElectronVersionUpdated","namespace":"appUpdate"}
+1730751947057 main info "windowManager: First requester booted successfully."
+1730751947064 main info "windowManager~restoreWindows: Restoring requester windows"
+1730751947073 main info "Main~AppEvents - Received booted event for process requester.Version undefined UI Version: undefined Desktop Platform Version: 11.18.0"
+Warning: terminator_CreateInstance: Failed to CreateInstance in ICD 3.  Skipping ICD.
